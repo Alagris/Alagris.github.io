@@ -61,3 +61,114 @@ body {
 
 	padding: 20px;	
 }
+
+
+/* ================================ BASE ================================ */
+.htmx-frame {
+  font-family: Poppins, sans-serif;
+  color: #151D3A; 
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ================================ HIDE TITLE & DESCR ================================ */
+#petition-title,
+#description {
+  display: none;
+}
+
+/* ================================ FORM LAYOUT (TWO COLUMNS) ================================ */ 
+.htmx-frame .field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.htmx-frame .field-grid > * {
+  min-width: 0;
+}
+
+.htmx-frame .form-text,
+.htmx-frame .form-select {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.htmx-frame .field-grid > div {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.htmx-frame input,
+.htmx-frame textarea,
+.htmx-frame select {
+  width: 100%;
+  box-sizing: border-box;
+  /* you already have padding and border */
+}
+
+/* ============= MOBILE FALLBACK ============= */
+@media (max-width: 600px) {
+  .htmx-frame .field-grid {
+    grid-template-columns: 1fr; /* 1 kolonne */
+  }
+}
+
+/* ============= INPUTS ============= */
+.htmx-frame input,
+.htmx-frame textarea,
+.htmx-frame select {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(21,29,58,.4);
+}
+
+/* ============= CHECK BOXES ============= */
+.htmx-frame input[type="checkbox"] {
+  width: auto;
+}
+
+.htmx-frame .form-checkbox-select { 
+  grid-column: 1 / -1; 
+} 
+
+.htmx-frame .form-checkbox-select label { 
+  display: inline-flex; 
+  align-items: flex-start; 
+  gap: 8px; 
+  margin: 0; 
+  line-height: 1.4; 
+  color: #ffffff; 
+} 
+
+.htmx-frame .form-checkbox-select input[type="checkbox"] { 
+  margin-top: 2px; 
+  flex-shrink: 0; 
+} 
+
+/* ============= SUBMIT ============== */
+.htmx-frame input[type="submit"] {
+  background: #FF6227;
+  color: #151D3A;
+  -webkit-text-fill-color: #151D3A;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  font-weight: 500;
+  padding: 12px 22px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.htmx-frame input[type="submit"]:hover {
+  background-color: #FF6227A0;
+  cursor: pointer;
+}
+.petition {
+	background-color: #e3e3e3;
+	border-radius: 10px;
+}
