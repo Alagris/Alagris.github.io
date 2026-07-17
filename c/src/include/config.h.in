@@ -1,3 +1,0 @@
-
-#define MEALY_VERSION_MAJOR 0
-#define MEALY_VERSION_MINOR 1

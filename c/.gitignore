@@ -1,8 +1,0 @@
-bin
-CMakeCache.txt
-CMakeFiles
-Debug
-MealyCompiler.build
-MealyCompiler.xcodeproj
-cmake_install.cmake
-CMakeScripts

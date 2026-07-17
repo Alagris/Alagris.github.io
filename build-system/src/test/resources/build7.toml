@@ -1,7 +1,0 @@
-projectName = "project7"
-[[source]]
-path = "sample.mealy"
-[[target]]
-name = "multiple_types"
-[[target]]
-name = "with_integers"

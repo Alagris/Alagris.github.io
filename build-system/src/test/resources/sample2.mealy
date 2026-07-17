@@ -1,7 +1,0 @@
-
-
-used_ahead_of_definition = 'ter' auto_exponentials 'kre'
-
-referenced_across_files = !!multiple_types !!multiple_types
-
-auto_exponentials = plain_regex 'k' plain_regex
