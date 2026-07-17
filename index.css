@@ -186,3 +186,37 @@ body {
 		font-size: 40px;
 	}
 }
+
+.menu {
+  position: absolute;
+  right: 0px;
+  top:0px;
+  background-color: #ebe9e9;
+  font-size: 30px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.menu a {
+  color: #ef7a00;
+
+}
+
+.menu a:link {
+  text-decoration: none;
+}
+
+.menu a:visited {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: none;
+}
+.menu:hover {
+  background-color: #ebe9e9;
+}
+
+.menu a:active {
+  text-decoration: none;
+}
