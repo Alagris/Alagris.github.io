@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="htmx-config" content='{"selfRequestsOnly": false}' />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="index.css" />
+		<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.3/dist/htmx.min.js" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+
+		<script>
+		  const params = new URLSearchParams(window.location.search);
+		  const slug = params.get('petition_slug');
+
+		  const redirects = {
+		    'fossilt-brensel-var-tids-tobakk': 'https://www.folkmotfossilmakta.no/helsepersonell-thank-you',
+		    'ski-fossil-free': 'https://www.skifossilfree.org/thank-you',
+		    'demokratiser-oljefondet': 'https://www.folkmotfossilmakta.no/oljefondet-takk'
+		  };
+
+		  if (slug && redirects[slug]) {
+		    window.location.replace(redirects[slug]);
+		  }
+		</script>
+	</head>
+	<body >
+			<div class="section s-white">
+				<span class="title">Danke!</span>
+			</div>
+			<div class="section s-orange">
+			
+			
+				<div class="main">
+						<div class="paragraph">
+								Anja wurde heute für einen repost einer Insta Story zu vier Monaten Haft auf 3 Jahre Bewährung verurteilt. Sie teilte einen Post, der einen Protest gegen die Zusmmenarbeit der ÖVP mit der rechtsextremen FPÖ in Österreich zeigt. Über dem Bild des Protests stand "Bitte nachahmen". Das Gericht wertete das als Aufruf zu Straftaten nach § 282 des österreichischen Strafgesetzbuches. 
+						</div>
+						
+
+
+
+				</div>
+			</div>
+
+	</body>
+</html>

@@ -50,13 +50,15 @@ body {
   	max-width: 70%;
   	gap: 10px;
 }
+
 .title{
-	
 	font-size: 60px;
   	align-self: center;
   	color: #ef7a00;
   	padding: 100px;
 }
+
+
 .paragraph {
 
 	padding: 20px;	
@@ -171,4 +173,16 @@ body {
 .petition {
 	background-color: #e3e3e3;
 	border-radius: 10px;
+}
+
+
+@media (max-width: 300px) {
+	.title{
+		font-size: 30px;
+	}
+}
+@media (min-width: 300px) and (max-width: 600px) {
+	.title{
+		font-size: 40px;
+	}
 }
