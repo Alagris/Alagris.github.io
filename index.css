@@ -188,7 +188,7 @@ body {
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   right: 0px;
   top:0px;
   background-color: #ebe9e9;
